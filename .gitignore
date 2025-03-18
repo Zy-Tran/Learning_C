@@ -1,0 +1,40 @@
+# Ignore all files except source code
+*.exe
+*.bat
+*.cmd
+*.dat
+*.ico
+*.ini
+*.log
+*.xml
+
+# Ignore specific directories
+clang64/
+clangarm64/
+dev/
+etc/
+home/
+installerResources/
+mingw32/
+mingw64/
+opt/
+tmp/
+ucr64/
+usr/
+var/
+
+# Ignore MSYS2 and MinGW-related files
+msys2.exe
+msys2_shell.cmd
+msys2.ini
+msys2.ico
+mingw32.exe
+mingw64.exe
+mingw32.ini
+mingw64.ini
+
+# Ignore installer and uninstall files
+installer.dat
+uninstall.*
+InstallationLog.txt
+README.md
