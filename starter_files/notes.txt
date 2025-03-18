@@ -1,0 +1,13 @@
+# This is only really important info that Ill need to reference later
+
+**To compile a C file**
+gcc -o hello hello.c 
+    This means compile hello.c and output an executable called hello 
+
+to run this executable run ./hello in the command prompt or F5 in VS Code with the debugger
+
+C has many different named versions that describe which dialect of the langauge youre using
+(Generally is the year of the specification)
+You can force gcc to use one of these standards with the -std= command line argument. If you want it to be icky abt the standard add "-pedantic"
+EX: 
+gcc -std=c11 -pedantic foo.c 
